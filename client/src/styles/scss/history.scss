@@ -1,0 +1,38 @@
+.myhistory{
+    padding: 50px 0;
+    margin: 0 15%;
+    table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+      
+    tbody tr:nth-child(odd) {
+        background-color: #ECE9E9;
+    }
+      
+    th, td {
+        padding: 0.75rem;
+        font-size: 0.9375rem;
+    }
+      
+    th {
+        font-weight: 700;
+        text-align: left;
+        color: #272838;
+        border-bottom: 2px solid #EB9486;
+        position: sticky;
+        top: 0;
+        background-color: #F9F8F8;
+    }
+      
+    td {
+        color: #7E7F9A;
+    }
+    .historynotlogged{
+        h2{
+            text-align: center;
+        }
+    }
+}

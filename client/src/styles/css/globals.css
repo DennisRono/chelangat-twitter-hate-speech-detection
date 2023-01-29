@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "IBM Plex Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  position: relative;
+  z-index: 0 !important;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 23px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}/*# sourceMappingURL=globals.css.map */

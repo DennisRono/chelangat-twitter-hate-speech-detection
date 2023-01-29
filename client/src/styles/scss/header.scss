@@ -1,0 +1,66 @@
+.header{
+    height: 54px;
+    border-bottom: 1px solid #adadad;
+    .header-container{
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        padding-top: 5px;
+        .header-brand{
+            display: flex;
+            padding: 10px 0;
+            .twitter-logo{
+                .twitterLogo{
+                    fill: #1d9bf0;
+                }
+            }
+            .brand-texts{
+                h3{
+                    margin-left: 20px;
+                    font-weight: 700;
+                    line-height: 1;
+                    color: #272727;
+                }
+            }
+        }
+        .navigation{
+            margin-top: -5px;
+            .nav{
+                .nav-list{
+                    display: flex;
+                    .nav-link{
+                        .nav-red{
+                            padding: 10px 20px;
+                            color: #272727;
+                            font-weight: 500;
+                        }
+                        .auth-btn-login{
+                            background: #2ac6ff;
+                            border-radius: 4px;
+                            padding: 9px 23px 11px;
+                            font-size: 16px;
+                            letter-spacing: 1.6px;
+                            color: rgb(255, 255, 255);
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            margin-right: 20px;
+                        }
+                        .auth-btn-register{
+                            border: 1px solid #2ac6ff;
+                            border-radius: 4px;
+                            padding: 5px 16px 7px;
+                            font-size: 16px;
+                            letter-spacing: 1.6px;
+                            color: #2ac6ff;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

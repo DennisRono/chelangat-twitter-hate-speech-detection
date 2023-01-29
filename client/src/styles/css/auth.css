@@ -1,0 +1,240 @@
+/*=-=-=-=-=-=auth page=-=-=-=-=-=-=*/
+.authentification a .getbackHome {
+  height: 25px;
+  width: 25px;
+  margin: 3rem 4rem;
+}
+
+.contact {
+  margin: 5% 30%;
+  margin-top: 0 !important;
+}
+@media (max-width: 480px) {
+  .contact {
+    margin: 10px;
+  }
+}
+.contact .contact-wrapper .contact-header {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 480px) {
+  .contact .contact-wrapper .contact-header {
+    font-size: 2.5rem;
+  }
+}
+.contact .contact-wrapper .formNotify {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #ff7c7c;
+  border-left: 5px solid red;
+  width: 50%;
+  margin: 0 auto;
+}
+.contact .contact-wrapper .formNotifySucc {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #7cff87;
+  border-left: 5px solid #00ff88;
+  width: 50%;
+  margin: 0 auto;
+}
+.contact .contact-wrapper .contFormSec {
+  margin-top: 1rem;
+  margin-left: 25px;
+}
+@media (max-width: 480px) {
+  .contact .contact-wrapper .contFormSec {
+    margin: 0 5px;
+    margin-top: 6rem;
+  }
+}
+.contact .contact-wrapper .contFormSec .login-form {
+  margin: 0 20%;
+}
+@media (max-width: 480px) {
+  .contact .contact-wrapper .contFormSec .login-form {
+    margin: 5%;
+  }
+}
+.contact .contact-wrapper .contFormSec form .cont-group {
+  margin-bottom: 40px;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp {
+  position: relative;
+  width: 94%;
+  margin: 5px 0px;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 10px 13px;
+  box-shadow: none !important;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+}
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) {
+  background-color: rgb(255, 219, 166);
+}
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .floating-label {
+  position: absolute;
+  pointer-events: none;
+  top: 30px;
+  left: 10px;
+  transition: 0.2s ease all;
+  opacity: 0.5;
+  color: rgb(95, 95, 95);
+}
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) ~ .floating-label,
+.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:focus ~ .floating-label {
+  top: 0px;
+  left: 8px;
+  font-size: 13px;
+  opacity: 1;
+  color: var(--color);
+}
+.contact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex .contPut {
+  width: 46%;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row {
+  display: flex;
+  margin-bottom: 22px;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row {
+  width: 97%;
+  position: relative;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief {
+  display: flex;
+  padding: 18px 20px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px dashed var(--color);
+  border-radius: 5px;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon {
+  margin-right: 15px;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon img {
+  max-width: 100%;
+  height: auto;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label {
+  font-size: 16px;
+  letter-spacing: -0.17px;
+  line-height: 22px;
+  color: var(--color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 800px;
+  overflow-x: scroll;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label::-webkit-scrollbar {
+  scrollbar-color: rgb(35, 42, 46);
+  width: 5px;
+  max-height: 3px;
+  border-radius: 23px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list {
+  padding: 8px 15px;
+  border-radius: 23px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #eaeaea;
+  background-color: #505050;
+  margin-right: 3px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  white-space: nowrap;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list:hover {
+  background-color: #797979;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap {
+  display: flex;
+  align-items: center;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap .button {
+  background: #2ac6ff;
+  border-radius: 4px;
+  padding: 9px 23px 11px;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .file-field {
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 70%;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+.contact .contact-wrapper .contFormSec form p span {
+  color: #2ac6ff;
+  cursor: pointer;
+}
+.contact .contact-wrapper .contFormSec form .resetting-pass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+.contact .contact-wrapper .contFormSec form .resetting-pass .contact-btn {
+  border-radius: 4px;
+  padding: 13px 54px 15px;
+  background-color: #2ac6ff;
+  border: 1px solid #2ac6ff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  line-height: 19px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  transition: color 0.15s ease-in-out 0s;
+  display: inline-block;
+}
+.contact .contact-wrapper .contFormSec form .resetting-pass .contact-btn:hover {
+  color: rgb(109, 216, 255);
+  background-color: rgb(233, 233, 233);
+  transition: 0.3s;
+}
+.contact .contact-wrapper .contFormSec form .resetting-pass p a {
+  text-decoration: none;
+  color: #2ac6ff;
+}
+
+.hide-activity {
+  display: none !important;
+}/*# sourceMappingURL=auth.css.map */

@@ -1,0 +1,253 @@
+.infotxts{
+    margin: 0 15%;
+    padding-top: 3rem;
+    .about-title{
+        font-weight: 700;
+        margin: 1.5rem 0 0.5rem;
+        padding: 0.5em 0 0.25em;
+        line-height: 1;
+        font-size: 2.25rem;
+    }
+    .creator{
+        margin-bottom: 20px;
+        a{
+            color: #1d9bf0;
+            .sendicon{
+                height: 15px;
+                width: 15px;
+                fill: #1d9bf0;
+            }
+        }
+    }
+    .abt-cont{
+        margin: 0 0 1rem;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    h2{
+        font-weight: 400;
+        margin: 1.5rem 0 0.5rem;
+        padding: 0.5em 0 0.25em;
+        line-height: 1;
+        font-size: 1.75rem;
+    }
+}
+.landing{
+    margin: 0 15%;
+    .landingtitle{
+        font-weight: 700;
+        margin: 1.5rem 0 0.5rem;
+        padding: 0.5em 0 0.25em;
+        line-height: 1;
+        font-size: 2.25rem;
+    }
+    .landingtexts{
+        font-style: italic;
+    }
+    .landingform{
+        display: flex;
+        align-items: flex-end;
+        margin: 20px 0;
+        width: 80%;
+        .form-group{
+            width: 50%;
+            margin-right: 20px;
+            .landingtweetinput{
+                padding: 20px 10px;
+                border-radius: 6px;
+                border: none;
+                background-color: #e5e3ff;
+                margin-top: 1rem;
+                margin-right: 20px;
+                width: calc(100% - 20px);
+            }
+        }
+        .lsubmitBtn{
+            padding: 20px !important;
+            background-color: #1D9BF0;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            color: #e5e3ff;
+            font-weight: 700;
+        }
+    }
+}
+
+.gettwittertweets{
+    padding: 10px 20px !important;
+    background-color: #1D9BF0 !important;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #e5e3ff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.hidecab{
+    display: none;
+}
+.choicedeck{
+    margin: 0 15%;
+    .gettwittertweets:first-child{
+        margin-right: 20px;
+    }
+}
+
+.table-wrap{
+    width: 100%;
+    border: 1px solid #222222;
+    border-radius: 14px;
+    background-color: var(--theme-bg-color);
+    margin-top: 25px;
+    thead{
+        tr{
+            cursor: unset !important;
+            background-color: #1D9BF0;
+            &:hover{
+                background-color: #1D9BF0 !important;
+            }
+            td{
+                padding: 10px;
+            }
+        }
+    }
+    table, thead, tbody, tr, td{
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #222222;
+    }
+    table {
+        border-radius: 14px;
+        overflow: hidden;
+        width: 100%;
+        tbody{
+            tr{
+                &:hover{
+                    background-color: #ffffff69;
+                }
+                td{
+                    padding: 10px;
+                    // &:last-child{
+                    //     text-align: center;
+                    //     width: max-content;
+                    // }
+                    button{
+                        border-radius: 4px;
+                        padding: 10px 20px;
+                        background-color: #2ac6ff;
+                        border: 1px solid #2ac6ff;
+                        position: relative;
+                        overflow: hidden;
+                        z-index: 1;
+                        text-align: center;
+                        line-height: 19px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 1.6px;
+                        text-transform: uppercase;
+                        color: rgb(255, 255, 255);
+                        -webkit-box-align: center;
+                        align-items: center;
+                        transition: color 0.15s ease-in-out 0s;
+                        display: inline-block;
+                        margin: 0 auto;
+                        &:hover{
+                            color: rgb(109, 216, 255);
+                            background-color: rgb(233, 233, 233);
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.rainbow {
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
+	overflow: hidden;
+    color: #000 !important;
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 500%;
+		height: 500%;
+		background-color: #399953;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+		animation: rotate 4s linear infinite;
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		background: white;
+		border-radius: 5px;
+	}
+}
+
+.tdHeader{
+    color: #e5e3ff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.results{
+    margin-top: 2rem;
+    .resplay{
+        padding: 20px;
+        background-color: rgb(9 171 59 / 20%);
+        color: rgb(23, 108, 54);
+        font-weight: 100;
+        border-radius: 5px;
+    }
+    .hate{
+        background-color: rgba(171, 9, 9, 0.2) !important;
+        color: rgb(108, 23, 23) !important;
+    }
+    .sentimentbox{
+        margin-bottom: 30px;
+        h2{
+            margin: 15px 0;
+        }
+        p{
+            margin: 10px 0;
+        }
+        .sentimentflex{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            .sentTexts{
+                width: 50%;
+                p{
+                    margin-bottom: 15px;
+                }
+            }
+            .sentGraphs{
+                width: 50%;
+            }
+        }
+    }
+}

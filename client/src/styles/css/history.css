@@ -1,0 +1,33 @@
+.myhistory {
+  padding: 50px 0;
+  margin: 0 15%;
+}
+.myhistory table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.myhistory tbody tr:nth-child(odd) {
+  background-color: #ECE9E9;
+}
+.myhistory th, .myhistory td {
+  padding: 0.75rem;
+  font-size: 0.9375rem;
+}
+.myhistory th {
+  font-weight: 700;
+  text-align: left;
+  color: #272838;
+  border-bottom: 2px solid #EB9486;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #F9F8F8;
+}
+.myhistory td {
+  color: #7E7F9A;
+}
+.myhistory .historynotlogged h2 {
+  text-align: center;
+}/*# sourceMappingURL=history.css.map */
