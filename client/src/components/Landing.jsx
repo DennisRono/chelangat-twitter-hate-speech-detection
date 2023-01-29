@@ -72,7 +72,7 @@ const Landing = () => {
     <Fragment>
         <div className="infotxts">
             <h1 className="about-title">Twitter hate crime and cyberbullying detection</h1>
-            <p className="creator">Created by <a href="https://github.com/scientiaChela" rel="noopener noreferrer" target="_blank">Cynthia Chelang'at <Send className="sendicon"/></a></p>
+            <p className="creator">Created by <a href="https://github.com/scientiaChela" rel="noopener noreferrer" target="_blank">Cynthia Chelang'at<Send className="sendicon"/></a> and <a href="https://github.com/DennisRono" rel="noopener noreferrer" target="_blank">Dennis Kibet<Send className="sendicon"/></a></p>
             <p className="abt-cont">The widespread usage of social media, blogging, and other social communication services has been more apparent in recent years. Users of these services are exposed to content made by other people. The majority of the time, that content may include derogatory or abusive language that could target or insult particular user groups without offering helpful information.</p>
             <p className="abt-cont">Hate speech is defined as "abusive speech targeting specific group characteristics, such as ethnicity, religion, or gender".</p>
             <p className="abt-cont">If not restrained, this language usage could make such services less appealing to the average user, particularly in social networks and product review websites, it may even cause uproar and fights on sensitive subject like election. <br/>
